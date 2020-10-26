@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+
+#navbar .container-info  {
+    background: url(./img/07_gettyimages-610041376_resized.jpg) no-repeat center center/cover; 
+    height: 100vh;
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 1rem;
+
+}
+
+ .bottom h1 {
+    
+     margin-top: 30rem;
+     text-align: center;
+     color: #FEFB74;
+    
+     font-size: 2rem;
+     text-transform: uppercase;
+ 
+   
+}
+
+
+#navbar ul {
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+}
+#navbar ul li a {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  
+    /* font-size: 1rem; */
+   
+   
+  
+}
+#navbar ul li a:hover {
+    background: grey;
+    border-radius: 10px;
+    /* color: rgb(66, 62, 62); */
+}
+
+#about img {
+    margin-top: 1rem;
+    width:100% ;
+    height: 100%;
+    
+}
+
+/* contact */
+#contact .lorem h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+#contact .lorem p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+#contact .text [type='name'],
+#contact  .text [type='email'],
+#contact .text [type='massage'] {
+    width: 100%;
+    padding: .5rem;
+   
+}
+
+#contact  .text [type='submit'] {
+    width: 100%;
+    padding: .5rem;
+    margin-bottom: 5rem;
+   
+}
+

@@ -1,0 +1,24 @@
+#navbar ul {
+    flex-direction: column;
+    text-align: center;
+    
+}
+#navbar ul li {
+    margin: 0.7rem 0;
+
+}
+.bottom h1  {
+    text-align: center;
+}
+
+
+#contact .text [type='name'],
+#contact  .text [type='email'],
+#contact .text [type='massage'] {
+    width: 100%;
+  
+   
+}
+#contact .lorem {
+    text-align: center;
+}
